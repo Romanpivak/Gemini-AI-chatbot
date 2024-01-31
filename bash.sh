@@ -1,6 +1,6 @@
 # Set start and end dates
-START_DATE="2021-01-31"
-END_DATE="2021-12-09"
+START_DATE="2024-01-31"
+END_DATE="2024-12-09"
 git add .
 # Loop through each day from START_DATE to END_DATE
 while [ "$(date -d "$START_DATE" +%Y-%m-%d)" != "$(date -d "$END_DATE + 1 day" +%Y-%m-%d)" ]; do
